@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+
+.MeliContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    
+
+}
+
+.MeliAdsContainer{
+    width: 1200px;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.TopContentAds{
+    background-color: #8D1790;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+.topMiddle{
+    width: 100%;
+
+}
+
+.RightAdsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.MeliImage{
+    width: 90px;
+}
+
+.ImageContentAds{
+    width: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 74px;
+    border: 1px rgba(0, 0, 0, 0.095) solid;
+    border-radius: 100%;
+}
+
+.TitleAdsM{
+    font-size: 26px;
+    color: white;
+}
+
+.LeftAdsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+}
+
+.TitleRigth{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.MiddleContentAds{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 176px;
+    padding: 24px;
+   
+    
+    
+}
+
+.Price{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.sup{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+.MesContent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+
+}
+.ContentBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    gap: 10px;
+}
+
+.FreteContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 74px;
+    gap: 2px;
+}
+.DisneyContent{
+    display: flex;
+    align-items: center;
+    width: 283px;
+    height: 74px;
+    justify-content: center;
+    gap: 2px;
+    
+}
+.DeezerContent{
+    display: flex;
+    align-items: center;
+    width: 283px;
+    height: 74px;
+    justify-content: center;
+    gap: 2px;
+}
+.DiscountContent{
+    display: flex;
+    align-items: center;
+    width: 283px;
+    height: 74px;
+    justify-content: center;
+    gap: 2px;
+}
+
+.PNGCONTENT{
+    width: 60px;
+    height: 60px;
+}
+
+.BottomContentAds{
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.058);
+    height: 81px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 16px 30px 16px 30px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.ButtonChildren{
+    width: 156px;
+    height: 46px;
+    background-color: #3483FA;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 6px;
+}
+
+.ButtonChildren:hover{
+    cursor: pointer;
+    background-color: #2968C8;
+    transition: 0.7s;
+}

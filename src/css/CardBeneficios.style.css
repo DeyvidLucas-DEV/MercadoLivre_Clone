@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.CardSection{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.CardBenefCont{
+    border-radius: 8px;
+    background-image: url('../image/disneystarmod.jpg');
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -57px 36px -25px inset;
+    width: 380px;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+
+.ContentBen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: start;
+}
+
+.LogoBens{
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.TitleCardBen{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.SubTitleCardben{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}

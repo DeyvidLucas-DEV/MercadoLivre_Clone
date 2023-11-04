@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+.conteinerPayment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px;
+  
+}
+.container{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3%;
+    width: 70%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.PaymentSections {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.TextSection {
+    display: grid;
+    border-right: 1px solid rgb(191, 191, 191);
+    border-left: 3px solid blue;
+    padding-right: 30px;
+    background-color: transparent;
+    padding-left: 30px;
+    text-align: start;
+    height: 100%;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.texto1{
+    font-size: 14px;
+    background-color: white;
+    color: rgb(129, 129, 129);
+}
+
+.CreditCard, .NoCreditSection, .PixSection {
+    display: flex;
+    padding-right: 30px;
+    background-color: transparent;
+}
+
+.LeftIcon {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 25px;
+    color: blue;
+}
+
+.RightText {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.RightText a {
+    text-align: start;
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topText {
+    background-color: transparent;
+}
+
+.bottomText {
+    background-color: transparent;
+}
+
+/* Consulta de mídia para telas menores, por exemplo, smartphones */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .PaymentSections {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .TextSection {
+        border: none;
+        padding: 10px;
+    }
+
+    .LeftIcon {
+        margin: 5px;
+        padding: 5px;
+    }
+}

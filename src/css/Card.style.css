@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.CardContainer{
+    height: 400px;
+    width: 220px;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.image{
+    width: 100%;
+}
+
+.imageContent{
+    width: 100%;
+}
+
+.BottomCard{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TopTextCard{
+    width: 100%;
+   
+}
+
+.ValueCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.ValueCard{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.TopTextCard{
+    display: flex;
+    align-items: start;
+    width: 100%;
+   margin-bottom: 10px;
+}
+
+.ValueDiscount{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.343);
+    
+}
+
+.RealValue{
+    color: black;
+    font-size: 23px;
+}
+
+.DiscountTotal{
+    color: #00A650;
+    font-size: 14px;
+}
+
+.OFF{
+    color: #00A650;
+    font-size: 14px;
+}
+
+.PaymentContent{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 4px;
+}
+
+.info{
+    color: black;
+}
+
+.infoContent{
+    color: #00A650;
+}
+
+.FreteContainer{
+    margin-top: 10px;
+}
+
+.FreteP{
+    font-size: 14px;
+    color: #00A650;
+}

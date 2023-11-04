@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.HeaderContainer{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    background-color: #FFF159;
+    display: grid;
+    grid-template-areas: initial;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.HeaderTop, .HeaderBottom{
+    height: 50%;
+    font-size: 15px;
+    background-color: #FFF159;
+}
+
+.Location{
+    height: 200px;
+}
+
+.LiTop{
+    background-color: #FFF159;
+}
+.HeaderLiTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    gap: 40px;
+    background-color: #FFF159;
+}
+
+.HeaderLogo{
+    height: 34px;
+    padding-right: 10px;
+    
+    background-color: #FFF159;
+}
+
+.SearchBarDiv{
+    width: 500px;
+}
+.SearchBar{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 10px;
+    background-color: #fff;
+    border-style: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+}
+
+.SearchBar:focus{
+    outline: none
+}
+
+.SearchBar::placeholder{
+    color: rgba(0, 0, 0, 0.273);
+}
+
+.HeaderLogo2{
+    height: 35px;
+    width: 100%;
+}
+
+
+.HeaderList{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    background-color: #FFF159;
+}
+
+.CepButton{
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFF159;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 90%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.ListChildren{
+    background-color: #FFF159;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+
+    
+}
+.a:focus {
+    outline: none;
+  }
+
+.NavBottom{
+    width: 100%px;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    background-color: #FFF159;
+
+    
+}
+
+.NavItems{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.654);
+    list-style-type: none;
+     background-color: #FFF159;
+
+    
+}
+
+.iconHeader{
+    font-size: 20px;
+        background-color: #FFF159;
+ 
+}
+
+.NavItems:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.NavItems2{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.NavItems2{
+    background-color: #FFF159;
+}
+
+.NavItems2:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+

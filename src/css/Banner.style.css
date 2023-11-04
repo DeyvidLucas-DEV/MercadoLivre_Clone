@@ -1,0 +1,80 @@
+
+.BannerContainer {
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 1450px;
+  background-color: #EBEBEB;
+  height: auto; 
+  overflow: hidden;
+  position: relative;
+}
+input{
+    display: none;
+}
+
+
+.slides {
+  width: 300%; 
+  background-color: #EBEBEB;
+  height: auto;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+
+.image {
+  width: 33.33%; 
+  height: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+.manual-navigation {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease; 
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 10px; 
+}
+
+.manual-btn:hover {
+  background-color: #fff;
+}
+
+
+.AutoNavigation {
+  display: none; 
+}
+
+.auto-btn1:checked ~ .slides {
+  transform: translateX(0);
+}
+
+.auto-btn2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+.auto-btn3:checked ~ .slides {
+  transform: translateX(-200%);
+}
